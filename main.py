@@ -18,3 +18,6 @@ with col2:
     passion for data-driven solutions."""
     st.info(content)
 
+content2 = "Below you can find some of the apps I have built in Python. Do check them out and feel free to contact me!!"
+st.write(content2)
+
