@@ -7,6 +7,8 @@ col1, col2=st.columns(2)
 
 with col1:
     st.image("images/pfphoto.png", width=400)
+    st.write("EMAIL: mondalsayandeep2004@gmail.com")
+    st.write("PHONE NO: +9123729104")
 
 with col2:
     st.title("Sayandeep Mondal")
@@ -20,7 +22,7 @@ with col2:
     st.info(content)
 
 content2="Below you can find some of the apps I have built in Python. Do check them out and feel free to contact me!!"
-st.write(content2)
+st.info(content2)
 
 col3, empty_col, col4=st.columns([2, 0.5, 2])
 
